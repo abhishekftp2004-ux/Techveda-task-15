@@ -1,17 +1,17 @@
 Task 15 — Pandas DataFrame Basics
 
-1. Project Overview
+## 1. Project Overview
 This task introduces the Pandas DataFrame, the primary Pandas structure used for tabular data analysis. A DataFrame stores information in rows and columns, similar to a spreadsheet or database table.
 
-2. Objective
+## 2. Objective
 Learn how to create, load, inspect, select, filter, and summarize tabular data using Pandas DataFrames.
 
-3. Tools
+## 3. Tools
 - Python
 - Pandas
 - Jupyter Notebook
 
-4. Deliverables
+## 4. Deliverables
 - Create a DataFrame manually.
 - Load a real CSV dataset into a DataFrame.
 - Explore rows and columns.
@@ -20,7 +20,7 @@ Learn how to create, load, inspect, select, filter, and summarize tabular data u
 - Use `describe()` for numerical summaries.
 - Perform practical filtering and student-performance analysis.
 
-5. Main Concepts
+## 5. Main Concepts
 
 DataFrame
 A two-dimensional labeled data structure containing rows and columns.
@@ -61,13 +61,13 @@ df.isnull().sum()
 ```
 counts missing values in each column.
 
-6. Practical Workflow
+## 6. Practical Workflow
 Load → Inspect → Check shape/types → Check missing values → Select columns → Filter rows → Calculate statistics → Interpret results.
 
-7. Dataset
+## 7. Dataset
 `student_performance.csv` contains student IDs, names, ages, Python marks, SQL marks, attendance, average marks, and performance categories.
 
-8. Run
+## 8. Run
 ```bash
 pip install pandas jupyter
 python Task_15.py
